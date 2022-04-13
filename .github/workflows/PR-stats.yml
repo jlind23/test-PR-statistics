@@ -25,7 +25,6 @@ jobs:
         uses: flowwer-dev/pull-request-stats@v2.3.0
         with:
           token: ${{ secrets.READ_ACCESS_TOKEN }}
-          organization: 'elastic'
           repositories: 'elastic-agent'
           period: 7
           charts: true
